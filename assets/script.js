@@ -56,13 +56,13 @@ updateSlide();
 // Slide gauche
 leftArrow.addEventListener('click', function() {
     currentSlide = (currentSlide - 1 + totalSlides) % totalSlides; // Changement de slide + infini
-    updateSlide(); // Update the slide content
+    updateSlide(); //
 });
 
 // Slide droite
 rightArrow.addEventListener('click', function() {
     currentSlide = (currentSlide + 1) % totalSlides; 
-    updateSlide(); // Update the slide content
+    updateSlide(); //
 });
 
 
